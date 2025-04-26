@@ -15,10 +15,6 @@ function Header(){
                 </nav>
             </div>
             <h1 className="header_h1">Main page</h1>
-            <button className="header_button"><svg width="22" height="46" viewBox="0 0 38 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M34.5 21C36 27 36.2 39.8 23 43C11 45.9091 4 35.3333 3 29C3 21 6 11 22 11M22 11L16 3M22 11L17 19" stroke="white" stroke-width="5" stroke-linecap="round" />
-            </svg>
-            </button>
         </header>
     );
 }
