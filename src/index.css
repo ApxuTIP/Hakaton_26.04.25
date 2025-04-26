@@ -88,3 +88,10 @@
 .mantine-NativeSelect-root{
   height: 300px;
 }
+
+.mantine-Table-table {
+  margin-left: 150px;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
