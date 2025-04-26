@@ -38,7 +38,7 @@
 
 .sidebar {
   background-color: #1D2633;
-  width: 70px;
+  width: 110px;
   height: 100vh;
   padding: 20px;
   position: absolute;
@@ -56,6 +56,7 @@
   width: auto;
   border-radius: 7px;
   margin-bottom: 20px;
+  width: 80px;
 }
 
 .sidebar_a {
@@ -67,14 +68,23 @@
 
 .main_button {
   margin-top: 20px;
-  margin-right: 200px;
+  margin-left: 200px;
   display: flex;
-  justify-content: center; 
-  text-align: center;
   gap: 95px; 
 } 
 
 
 .mantine-NativeSelect-label {
-  color: pink;
+  font-family: "Noto Sans Display", sans-serif;
+  size: 35px;
+  color: #323842;
+  font-weight: 500;
+}
+
+.mantine-NativeSelect-wrapper{
+  width: 200px;
+}
+
+.mantine-NativeSelect-root{
+  height: 300px;
 }
