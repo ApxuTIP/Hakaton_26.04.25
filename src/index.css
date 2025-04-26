@@ -41,14 +41,16 @@
   width: 70px;
   height: 100vh;
   padding: 20px;
+  position: absolute;
+  z-index: 10; 
 }
 
-.sidebar_ul{
+.sidebar_ul {
   padding: 0;
   margin: 0;
 }
 
-.sidebar_li{
+.sidebar_li {
   list-style: none;
   background-color: #8191A2;
   width: auto;
@@ -56,9 +58,23 @@
   margin-bottom: 20px;
 }
 
-.sidebar_a{
+.sidebar_a {
   display: flex;
   justify-content: center;
   text-decoration: none;
   color: #1D2633;
+}
+
+.main_button {
+  margin-top: 20px;
+  margin-right: 200px;
+  display: flex;
+  justify-content: center; 
+  text-align: center;
+  gap: 95px; 
+} 
+
+
+.mantine-NativeSelect-label {
+  color: pink;
 }
